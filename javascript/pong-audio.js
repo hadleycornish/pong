@@ -49,20 +49,20 @@ soundArray.push(wallSound); //add sound to list of sounds
 export var paddleSound = new soundFile("paddle.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("music.mp3");
+export var scoreSound = new soundFile("pongmusic.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("music.mp3");
+//export var ambientSound = new soundFile("pongmusic.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -40; //turn down volume
+ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("music.mp3");
+export var adventureMusic = new soundFile("pongmusic.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = 55;
+adventureMusic.player.volume.value = 25;
 
-export var villageMusic = new soundFile("music.mp3");
+//export var villageMusic = new soundFile("pongmusic.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
