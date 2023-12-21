@@ -60,7 +60,7 @@ ambientSound.player.loop = true; //turn on looping
 export var adventureMusic = new soundFile("pongmusic.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-//adventureMusic.player.volume.value = -16;
+adventureMusic.player.volume.value = 25;
 
 export var villageMusic = new soundFile("pongmusic.mp3");
 soundArray.push(villageMusic);
