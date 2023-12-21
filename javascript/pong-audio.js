@@ -48,8 +48,9 @@ soundArray.push(wallSound); //add sound to list of sounds
 
 export var paddleSound = new soundFile("paddle.mp3");
 soundArray.push(paddleSound);
+villageMusic.player.volume.value = 16;
 
-export var scoreSound = new soundFile("silence.mp3");
+export var scoreSound = new soundFile("pongmusic.mp3");
 soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("ambient.mp3");
